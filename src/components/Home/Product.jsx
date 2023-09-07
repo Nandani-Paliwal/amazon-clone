@@ -30,8 +30,8 @@ function Product({ id, title, image, price, rating }) {
           <strong>{price}</strong>
         </p>
         <div className="product_rating flex ">
-          {Array(rating).fill().map((_, i) => (
-             <p>🌟</p>
+          {Array(rating).fill().map((_, index) => (
+             <p key={index}>🌟</p>
           ))}
 
           

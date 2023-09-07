@@ -22,22 +22,16 @@ function Checkout() {
             Your shopping Basket
           </h2>
 
-          {basket.map((item) => (
+          {basket.map((item, index) => (
             <CheckoutProduct
               id={item.id}
               title={item.title}
               image={item.image}
               price={item.price}
               rating={item.rating}
+              key={index}
             />
           ))}
-        
-
-
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
         </div>
       </div>
 

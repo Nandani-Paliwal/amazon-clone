@@ -29,8 +29,8 @@ function CheckoutProduct({ id, image, title, price, rating }) {
         <div className="checkoutProduct_rating flex">
           {Array(rating)
             .fill()
-            .map((_, i) => (
-              <p>🌟</p>
+            .map((_, index) => (
+              <p key={index}>🌟</p>
             ))}
         </div>
         <button

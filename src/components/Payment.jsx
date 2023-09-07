@@ -103,13 +103,14 @@ function Payment() {
             <h3 className="h3 font-bold">Review items and delivery</h3>
           </div>
           <div className="payment_items basic-4/5">
-            {basket.map((item) => (
+            {basket.map((item, index) => (
               <CheckoutProduct
                 id={item.id}
                 title={item.title}
                 image={item.image}
                 price={item.price}
                 rating={item.rating}
+                key={index}
               />
             ))}
           </div>
