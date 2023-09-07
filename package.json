@@ -2,7 +2,7 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "homepage": "https://Nandani-Paliwal.github.io/amazon-clone",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@stripe/react-stripe-js": "^1.16.4",
     "@stripe/stripe-js": "^1.46.0",
