@@ -4,6 +4,7 @@ import { useStateValue } from "../StateProvider";
 import Subtotal from "./Subtotal";
 
 function Checkout() {
+  // eslint-disable-next-line
   const [{ basket, user }, dispatch] = useStateValue();
 
   return (
@@ -12,7 +13,7 @@ function Checkout() {
         <img
           className="checkout_image mb-3 w-full"
           src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/AmazonPay/PDAYILM/v1/01.jpg"
-          alt=""
+          alt="checkout_image"
         />
 
         <div>

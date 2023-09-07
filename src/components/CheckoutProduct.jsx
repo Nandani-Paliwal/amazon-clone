@@ -2,6 +2,7 @@ import React from "react";
 import { useStateValue } from "../StateProvider";
 
 function CheckoutProduct({ id, image, title, price, rating }) {
+  // eslint-disable-next-line
   const [{ basket }, dispatch] = useStateValue();
 
   const removeFromBasket = () => {
@@ -16,7 +17,7 @@ function CheckoutProduct({ id, image, title, price, rating }) {
     <div className="checkoutProduct flex mt-5 mb-5  ">
       <img
         className="checkoutProduct_image object-contain w-44 h-44"
-        src={image}
+        src={image} alt=""
       />
 
       <div className="checkoutProduct_info pl-5">

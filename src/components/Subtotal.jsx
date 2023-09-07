@@ -1,5 +1,4 @@
 import React from "react";
-import { IoBasket } from "react-icons/io5";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "../StateProvider";
 import { getBasketTotal } from "../reducer";
@@ -7,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Subtotal() {
   const navigate = useNavigate();
+  // eslint-disable-next-line
   const [{ basket }, dispatch] = useStateValue();
 
   return (

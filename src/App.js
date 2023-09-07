@@ -17,6 +17,7 @@ const promise = loadStripe(
 );
 
 function App() {
+  // eslint-disable-next-line
   const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
         });
       }
     });
+    // eslint-disable-next-line
   }, []);
 
   return (

@@ -43,7 +43,7 @@ const register = e => {
   return (
     <div className='login flex flex-col items-center h-screen bg-white'>
         <Link to="/">
-          < img className='login_logo mt-5 mb-5 object-contain w-28 mr-auto ml-auto' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg' />
+          < img className='login_logo mt-5 mb-5 object-contain w-28 mr-auto ml-auto' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg' alt="login-logo" />
         </Link>
 
         <div className='login_container w-80 h-fit flex flex-col border border-solid border-gray-300 rounded-md p-5'>
