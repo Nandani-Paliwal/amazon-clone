@@ -49,7 +49,7 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/amazon-clone" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route
